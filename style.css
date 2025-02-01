@@ -19,7 +19,7 @@ body
     width: 100%;
     padding: 20px 10%;
     background: transparent;
-    display: flex;
+    display: #051129;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
@@ -199,6 +199,20 @@ body
     margin-bottom: 4rem;
 }
 
+#services{
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+.sub-title{
+   text-align: center;
+   font-size: 60px;
+   padding-bottom: 70px; 
+}
+.container{
+    padding: 90px;
+}
 
 
 
@@ -222,7 +236,7 @@ body
 
 
 
-@keyframes slideRight {
+/* @keyframes slideRight {
     0%{
         transform: translateX(-100px);
         opacity: 0;
@@ -261,4 +275,4 @@ body
         transform: translateY(0px);
         opacity: 1;
     }
-}
+} */
